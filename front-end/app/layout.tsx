@@ -27,3 +27,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </html>
   );
 }
+
+<nav>
+  <a href="/entry">Daily Entry</a>
+  <a href="/dashboard">Dashboard</a>
+  <a href="/settings">Settings</a>
+</nav>
+
+import Link from "next/link";
+
+<nav>
+  <Link href="/page">Page</Link>
+  <Link href="/dashboard">Dashboard</Link>
+  <Link href="/settings">Settings</Link>
+</nav>
